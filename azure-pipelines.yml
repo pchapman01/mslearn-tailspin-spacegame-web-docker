@@ -22,7 +22,7 @@ stages:
         buildContext: $(Build.Repository.LocalPath)
         repository: $(webRepository)
         dockerfile: '$(Build.SourcesDirectory)/Tailspin.SpaceGame.Web/Dockerfile'
-        containerRegistry: 'pchapmantailspinspacegame1234'
+        containerRegistry: 'AzDO-Service-Connection-Policyteam-Sandbox-ScratchPad'
         tags: |
           $(tag)
 
